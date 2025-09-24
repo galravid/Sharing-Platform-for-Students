@@ -50,6 +50,36 @@ Explanation of the external system - a system of the academic institution itself
 |                      | P4 - Automatic notification on uploaded solutions and questions           | P4 - Automatic notification on uploaded solutions/questions | DS4 - Requests for questions/solutions |                                                               |
 |                      | P5 - AI system for detecting inconsistencies in answers                   | P5 - AI system for detecting inconsistencies in answers     |                                      |                                                               |
 
+### DFD diagrams (in Hebrew):
+<img width="950" height="536" alt="image" src="https://github.com/user-attachments/assets/56dba961-5b34-4468-8595-289e8d069d91" />
+
+<img width="940" height="450" alt="image" src="https://github.com/user-attachments/assets/52c64263-71eb-4a91-95f8-7c7df95a480f" />
+
+<img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/5d242878-5051-4ac1-8d9e-e909ffb8eb28" />
+
+<img width="940" height="496" alt="image" src="https://github.com/user-attachments/assets/30157241-fc7b-4700-90d1-c2253e89bc8c" />
+
+<img width="940" height="501" alt="image" src="https://github.com/user-attachments/assets/b5aa0c46-0c2c-4345-87a9-af435156bcd1" />
+
+<img width="940" height="450" alt="image" src="https://github.com/user-attachments/assets/6d1b0225-aa33-4598-906c-604c02bdae3d" />
+
+<img width="940" height="426" alt="image" src="https://github.com/user-attachments/assets/69be4efe-272a-4e44-b975-80de96e7b9fb" />
 
 
+## ERD:
+<img width="839" height="1055" alt="image" src="https://github.com/user-attachments/assets/c5e9281e-7d9c-4a2b-84aa-3653d7e4729a" />
+
+## Class Diagram:
+<img width="963" height="599" alt="image" src="https://github.com/user-attachments/assets/f459a201-db82-4bc0-b0af-8a66a3e60747" />
+
+### Encapsulation Considerations in the Project:
+
+In our project, we worked with the approach where the attributes of each class are **private**, and the methods are **public**, in order to:  
+
+- Protect sensitive data, e.g., passwords and user IDs.  
+- Ensure correct logical relationships such as aggregation, composition, and inheritance.  
+- Allow flexibility for future changes in the information system without breaking it.  
+
+By working this way, we prevent the greatest threat to the information system (the user) from entering values that could crash the system.  
+For example, the method `add_alert()` can validate whether a new alert is legitimate before adding it, which prevents errors.  
 
